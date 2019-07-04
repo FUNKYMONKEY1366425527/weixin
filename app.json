@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "page/new/new",
+    "pages/images"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#11C2F7",
+    "navigationBarTitleText": "什么垃圾？",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+
+          "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/1.jpg",
+        "selectedIconPath": "images/1.jpg"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "个人中心",
+        "iconPath": "images/2.jpg",
+        "selectedIconPath": "images/腰果.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "空间",
+        "iconPath": "images/蛋黄酥.png",
+        "selectedIconPath": "images/蛋黄酥.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+  
+}
